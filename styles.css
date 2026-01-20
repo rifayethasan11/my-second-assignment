@@ -177,3 +177,48 @@
     border: none;
     color: #FFFFFF;
 }
+
+/* about section styles */
+
+.section1{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #1A0B2E;
+    color: #FFFFFF;
+}
+
+.sec1-details p{
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.527);
+}
+
+.sec1-details{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+hr{
+    max-width: 1000px;
+    margin: 40px auto;
+    opacity: calc(10%);
+}
+
+.sec1-cards{
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.sec1-card h1{
+    color: #00FF88;
+    font-weight: 900;
+}
+
+.sec1-card p{
+    color: #ffffffa8;
+    font-size: small;
+    margin-top: 10px;
+}
