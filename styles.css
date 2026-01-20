@@ -88,3 +88,92 @@
 }
 
 /* header styles */
+
+.header-elements{
+    max-width: 1600px;
+    background: url(./assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.header-image{
+    max-width: 350px;
+    margin: 0 auto;
+    background: url(./assets/hero-circle.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 50px;
+    
+}
+
+.header-image img{
+      max-width: 115px;
+      margin-left: 70px;
+}
+
+#new-badge{
+    margin-top: -190px;
+    margin-left: 140px;
+}
+
+.header-details{
+    max-width: 550px;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+.header-details h1{
+    color: #FFFFFF;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header-details p{
+    color: #ffffff98;
+    margin-bottom: 10px;
+}
+
+#btn1{
+    border: none;
+    border-radius: 10000px;
+    padding: 12px 20px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    align-items: center;
+}
+
+#btn1 img{
+    width: 15px;
+}
+
+#btn1:hover{
+    background: none;
+    border:.1px solid #FB09B4;
+    color: #FB09B4;
+}
+
+#btn2{
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    color: #00FF88;
+    padding: 12px 20px;
+    font-size: 1rem;
+    align-items: center;
+    background: none;
+}
+
+#btn2 img{
+    width: 15px;
+}
+
+#btn2:hover{
+    background-color: #00FF88;
+    border: none;
+    color: #FFFFFF;
+}
