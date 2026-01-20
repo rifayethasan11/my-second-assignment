@@ -295,3 +295,93 @@ hr{
     "card1 card3 card3"
     "card4 card4 card5";
 }
+
+/* featured section styles */
+
+.section3{
+    max-width: 1600px;
+    background-color: #1A0B2E;
+    margin: 0 auto;
+    padding-top: 70px;
+ }
+ #sec3-heading{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    animation: color-change 5s linear infinite;
+ }
+ .sec3-cards{
+    justify-content: center;
+    gap: 30px;
+ }
+ .sec3-card{
+    max-width: 380px;
+    background-color: #250D44;
+    color: #FFFFFF;
+    border-radius: 30px;
+ }
+ .sec3-card iframe{
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+ } 
+ .sec3-card h1,.sec3-card p{
+    padding: 10px;
+ }
+
+ .sec3-card h1{
+    font-size: 24px;
+ }
+
+  .sec3-card p{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.37);
+  }
+
+.sec3-card:hover{
+    box-shadow: 2px 2px 20px rgb(144, 8, 255);
+ }
+
+ /* last section styles */
+ .section4{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+    color: #FFFFFF;
+    padding: 120px 200px;
+   
+ }
+ #sec4-heading{
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 3rem;
+    
+ }
+ .sec4-elements{
+    background-color: #351165;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 40px;
+    animation: shadow 7s linear infinite;   
+     
+ }
+ .sec4-details h1 ,.sec4-details p{
+    margin-bottom: 10px;
+ }
+ .sec4-details img{
+       border: .5px solid rgb(120, 118, 118);
+       width: 40px;
+       height: 40px;
+       padding: 5px;
+       border-radius: 10px;
+ }
+
+ .sec4-details p{
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 16px;
+ }
